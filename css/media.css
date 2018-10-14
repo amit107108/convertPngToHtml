@@ -1,0 +1,148 @@
+
+@media (max-width: 575.98px) {
+    .logo {
+        padding: 10px 0;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .brand h3 {
+        display: inline-block;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 40px;
+        transition: .5s;
+    }
+    .menu {
+        width: 100%;
+        text-align: center;
+    }
+    .menu ul {
+        padding: 0;
+    }
+    .menu ul li {
+        display: list-item;
+        margin: 0;
+    }
+
+
+    #service-section {
+        text-align: center;
+    }
+    #service-section .container {
+        height: 580px;
+    }
+    .container .container-1 {
+        display: inline-table;
+        float: none;
+        text-align: center;
+    }
+
+    .container-2 {
+        text-align: justify;
+    }
+    .container-text {
+        display: table;
+        margin: 10px;
+        margin-left: 15px;
+    }
+    .text1 {
+        width: 100%;
+        float: none;
+    }
+    .text2 {
+        width: 100%;
+        float: none;
+    }
+    .text1, .text2 p {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    #contact-section .container {
+        width: 80%;
+        max-width: 600px;
+        height: auto;
+    }
+
+
+    #wrapper .container3 {
+        height: auto;
+    }
+    .container3 {
+        margin: 10px;
+    }
+    .footer-1 {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .footer-2 {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .footer-3 {
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .icon1 {
+        display: inline-block;
+
+    }
+    .icon1 i {
+        margin-top: 10px;
+        color: #fff;
+        border: 1px solid #fff;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:576px) and (max-width: 856.98px) {
+    #service-section {
+        text-align: center;
+    }
+    .container {
+        height: 580px;
+    }
+    .container .container-1 {
+        display: inline-block;
+        float: none;
+        text-align: none;
+    }
+
+    #navigation .container {
+        height: 92px;
+    }
+    .brand {
+        margin: 2px 25px;
+    }
+    .brand h3 {
+        font-size: 30px;
+    }
+
+    .container-text {
+        display: table;
+        margin: 10px;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 857px) and (max-width: 1053.98px) {
+    #navigation .container {
+        height: 98px;
+    }
+    .brand {
+        margin: 2px 25px;
+    }
+    .brand h3 {
+        font-size: 36px;
+    }
+}
